@@ -37,7 +37,7 @@ public class PackOfCrisps
     
     public boolean isEmpty()
     {            
-        return numOfCrisps > 0;
+        return numOfCrisps == 0;
     }
     
     public boolean isClosed()
