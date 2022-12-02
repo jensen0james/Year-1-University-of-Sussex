@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pocket
+comment0.text=\r\n\ The\ Pocket\ class\ represents\ a\ student's\ pocket\ that\ holds\ pennies.\r\n\r\n\ @author\ jensen0james\r\n\ @version\ 1.0.0\r\n
+comment1.params=size
+comment1.target=Pocket(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pocket.\ Creates\ a\ pocket\ that\ can\ hold\r\n\ objects\ of\ type\ Penny.\r\n\ \r\n\ @param\ \ size\ \ Determines\ how\ many\ pennies\ the\ pocket\ can\ hold.\r\n
+comment2.params=
+comment2.target=int\ pennyCount()
+comment2.text=\r\n\ Count\ how\ many\ pennies\ are\ in\ the\ HashSet\ and\ return\ it\ as\ an\ integer.\r\n\r\n\ @return\ \ \ \ An\ integer,\ which\ is\ the\ size\ of\ the\ HashSet\ pocket\ of\ type\r\n\ \ \ \ \ \ \ \ \ \ \ \ Penny\r\n
+comment3.params=
+comment3.target=Penny\ removePenny()
+comment3.text=\r\n\ Check\ whether\ the\ pocket\ is\ empty.\ If\ the\ pocket\ is\ not\ empty,\ remove\r\n\ a\ Penny\ from\ the\ pocket\ and\ return\ it.\r\n\r\n\ @return\ \ \ \ A\ Penny\ if\ there\ are\ still\ pennies\ in\ the\ pocket,\ otherwise\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ null.\r\n
+numComments=4

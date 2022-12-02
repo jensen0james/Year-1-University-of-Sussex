@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SnackMachine
+comment0.text=\r\n\ The\ SnackMachine\ class\ represnts\ a\ snack\ machine\ that\ holds\ packets\ of\r\n\ crisps\ that\ can\ be\ purchased\ once\ sufficient\ payment\ has\ been\ provided.\r\n\r\n\ @author\ jensen0james\r\n\ @version\ 1.1.0\r\n
+comment1.params=capacity\ cost
+comment1.target=SnackMachine(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SnackMachine.\ Creates\ a\ snack\ machine\r\n\ with\ a\ set\ capacity\ and\ cost\ for\ packs\ of\ crisps.\ Can\ accept\ pennies\ as\r\n\ a\ form\ of\ payment.\ Can\ stock\ machine\ with\ packs\ of\ crisps.\r\n\ \r\n\ @param\ \ capacity\ \ The\ maximum\ number\ of\ packs\ of\ crisps\ the\ machine\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ can\ hold.\r\n\ @param\ \ cost\ \ The\ cost\ to\ buy\ a\ pack\ of\ crisps\ from\ the\ machine.\r\n
+comment2.params=
+comment2.target=int\ getCost()
+comment2.text=\r\n\ Check\ the\ cost\ to\ buy\ a\ pack\ of\ crisps.\r\n\r\n\ @return\ \ \ \ An\ integer,\ where\ the\ value\ is\ the\ cost\ of\ purchasing\ a\ pack\r\n\ \ \ \ \ \ \ \ \ \ \ \ of\ crisps.\r\n
+comment3.params=pack
+comment3.target=void\ addPack(PackOfCrisps)
+comment3.text=\r\n\ Add\ a\ pack\ of\ crisps\ into\ the\ snack\ machine\ so\ long\ as\ there\ is\ room\r\n\ for\ another\ pack.\r\n\r\n\ @param\ \ pack\ \ A\ PackOfCrisps\ to\ be\ added\ to\ the\ machine.\r\n
+comment4.params=flavour
+comment4.target=int\ countPacks(java.lang.String)
+comment4.text=\r\n\ Count\ how\ many\ packs\ of\ a\ specific\ flavour\ are\ in\ the\ snack\ machine\ and\r\n\ return\ it\ as\ an\ integer.\r\n\r\n\ @param\ \ flavour\ \ The\ flavour\ to\ be\ checked\ against\ the\ flavours\ in\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ machine.\r\n\ @return\ \ \ \ An\ integer,\ that\ is\ the\ number\ of\ packets\ in\ the\ machine\r\n\ \ \ \ \ \ \ \ \ \ \ \ with\ the\ checked\ flavour.\r\n
+comment5.params=penny
+comment5.target=void\ insertMoney(Penny)
+comment5.text=\r\n\ Pennies\ are\ added\ to\ the\ machine\ as\ a\ form\ of\ payment.\r\n\r\n\ @param\ \ penny\ \ A\ Penny\ is\ accepted\ as\ payment.\r\n
+comment6.params=flavour
+comment6.target=PackOfCrisps\ buyPack(java.lang.String)
+comment6.text=\r\n\ Buy\ a\ pack\ of\ crisps\ from\ the\ machine\ of\ a\ specific\ flavour\ and\ return\r\n\ that\ flavour\ if\ possible.\r\n\r\n\ @param\ \ flavour\ \ the\ flavour\ of\ the\ pack\ of\ crisps\ to\ be\ bought.\r\n\ @return\ \ \ \ A\ PackOfCrisps\ object,\ where\ the\ pack\ of\ crisps\ is\ of\ the\r\n\ \ \ \ \ \ \ \ \ \ \ \ flavour\ requested.\r\n
+comment7.params=
+comment7.target=void\ describe()
+comment7.text=\r\n\ Describe\ the\ current\ state\ of\ the\ snack\ machine.\r\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SnackBar
+comment0.text=\r\n\ The\ SanckBar\ class\ represents\ a\ bar\ in\ which\ students\ can\ purchase\ snacks\r\n\ with\ pennies\ that\ they\ have\ in\ their\ pocket\ by\ going\ up\ to\ a\ snack\ machine\r\n\ to\ buy\ a\ packet\ of\ crisps.\ Time\ proceeds\ in\ discrete\ steps.\r\n\r\n\ @author\ jensen0james\r\n\ @version\ 1.0.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ accepts\ two\ arguments.\ The\ first\ argument\ is\ how\ many\r\n\ students\ are\ in\ the\ snack\ bar.\ The\ second\ argument\ is\ for\ how\ many\r\n\ steps\ the\ simulation\ will\ run.\r\n\ \r\n\ @param\ \ args\ \ Arguments\ to\ dictate\ how\ the\ program\ will\ run.\r\n
+comment2.params=numOfStudents\ numOfCrisps\ cost
+comment2.target=SnackBar(int,\ int,\ int)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ SnackBar.\ The\ snack\ bar\ is\ a\ place\r\n\ where\ students\ can\ interact\ with\ a\ snack\ machine.\ Time\ progresses\r\n\ in\ discrete\ steps\ were\ a\ student\ is\ picked\ to\ execute\ their\ snack\ time\r\n\ logic.\ The\ snack\ bar\ constructs\ the\ snack\ machine\ and\ fills\ it\ with\r\n\ packs\ of\ crisps.\ It\ also\ constructs\ students\ and\ assigns\ them\ a\ flavour.\r\n\ \r\n\ @param\ \ numOfStudents\ \ The\ number\ of\ students\ the\ snack\ bar\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ will\ be\ constructed\ with.\r\n\ @param\ \ numOfCrisps\ \ The\ number\ of\ packs\ of\ crisps\ the\ machine\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ will\ be\ stocked\ with\ of\ random\ flavour.\r\n\ @param\ \ cost\ \ How\ much\ each\ pack\ of\ crisps\ will\ cost\ to\ purchase\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ from\ the\ constructed\ machine.\r\n
+comment3.params=
+comment3.target=java.lang.String\ randomFlavour()
+comment3.text=\r\n\ Picks\ a\ random\ flavour\ from\ the\ avaible\ flavours\ of\ crisps\r\n\r\n\ @return\ \ \ \ A\ String,\ where\ the\ String\ is\ the\ randomly\ generated\ flavour\r\n\ \ \ \ \ \ \ \ \ \ \ \ of\ crisp.\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\r\n\ Describe\ the\ state\ of\ the\ snack\ bar.\r\n
+comment5.params=nStep
+comment5.target=void\ runSnackBar(int)
+comment5.text=\r\n\ Step\ the\ snack\ bar\ forward\ in\ time\ by\ one\ step.\ For\ each\ step,\ invoke\r\n\ the\ describe\ method\ and\ pick\ a\ random\ student\ to\ invoke\ their\ snackTime\r\n\ method.\r\n\r\n\ @param\ \ nStep\ \ An\ integer,\ which\ reprents\ for\ how\ many\ steps\ the\ snack\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ bar\ should\ run\ for.\r\n
+numComments=6

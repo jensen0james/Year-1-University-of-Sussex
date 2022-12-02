@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ class\ represents\ a\ student\ who\ is\ always\ hungry\ and\ is\ trying\r\n\ to\ buy\ their\ favourite\ flavour\ of\ crisps\ with\ pennies\ in\ their\ pocket.\r\n\ They\ are\ either\ attempting\ to\ buy\ a\ packet\ of\ crisps,\ eating\ a\ crisp,\r\n\ or\ throwing\ an\ epmty\ bag\ away.\r\n\r\n\ @author\ jensen0james\r\n\ @version\ 1.0.0\r\n
+comment1.params=flavour\ machine
+comment1.target=Student(java.lang.String,\ SnackMachine)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student.\ Students\ are\ given\ a\ student_id\r\n\ which\ seperates\ them\ from\ other\ students.\ They\ have\ a\ pocket\ of\ 20\ pennies\r\n\ each.\ They\ are\ constructed\ without\ a\ pack\ of\ crisps\ in\ hand.\ They\ have\ a\ flavour\r\n\ they\ will\ try\ to\ buy\ from\ their\ assigned\ snack\ machine.\r\n\ \r\n\ @param\ \ flavour\ \ The\ flavour\ of\ crisp\ that\ the\ student\ will\ attempt\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ purchase.\r\n\ @param\ \ machine\ \ The\ snack\ machine\ that\ a\ student\ will\ purchase\ packs\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ crisps\ from.\r\n
+comment2.params=
+comment2.target=void\ buyCrisps()
+comment2.text=\r\n\ The\ student\ attempts\ to\ buy\ a\ pack\ of\ crisps\ from\ a\ snack\ machine.\r\n
+comment3.params=
+comment3.target=void\ snackTime()
+comment3.text=\r\n\ The\ student\ tries\ to\ eat\ a\ crisp\ out\ of\ a\ bag\ of\ crisps\ in\ their\r\n\ possession.\ If\ the\ bag\ is\ empty\ they\ throw\ it\ away.\ If\ they\ do\ not\ have\r\n\ bag\ they\ attempt\ to\ buy\ one.\r\n
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Penny
+comment0.text=\r\n\ The\ Penny\ class\ represents\ pennies\ that\ are\ used\ to\ buy\ packets\ of\ crisps\r\n\ from\ the\ snack\ machine.\r\n\r\n\ @author\ (jensen0james)\r\n\ @version\ (1.0.0)\r\n
+comment1.params=
+comment1.target=Penny()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Penny.\r\n
+numComments=2
